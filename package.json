@@ -2,24 +2,14 @@
   "name": "shuwa-frontend-book-app",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/sazumy/shuwa-frontend-book-app",
-  "author": "Azumi S <49363119+sazumy@users.noreply.github.com>",
+  "repository": "git@github.com:n05-frontend/shuwa-frontend-book-app.git",
+  "author": "n05-frontend",
   "license": "MIT",
-  "devDependencies": {
-    "@babel/core": "^7.14.8",
-    "@babel/preset-env": "^7.14.9",
-    "@babel/preset-typescript": "^7.14.5",
-    "@types/jquery": "^3.5.6",
-    "babel-loader": "^8.2.2",
-    "typescript": "^4.3.5",
-    "webpack": "^5.48.0",
-    "webpack-cli": "^4.7.2"
-  },
   "scripts": {
     "build": "webpack",
     "lint:ts": "tsc --noEmit"
   },
   "dependencies": {
-    "jquery": "^3.6.0"
+    "jquery": "^3.5.1"
   }
 }
